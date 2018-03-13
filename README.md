@@ -1,2 +1,2 @@
 # Artzone-Website
-Artzone Website using Bootstrap
+Artzone Website using HTML,CSS,JavaScript,Bootstrap,JQuery
