@@ -1,0 +1,411 @@
+*,html,body {
+	margin: 0;
+	padding: 0;
+	font-family: roboto;
+}
+body {
+	height: 3000px;
+}
+header {
+	height: 112px;
+	line-height: 112px;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
+
+.secondary {
+	background-color: deepskyblue;
+	box-shadow: 0 0 17px 0;
+	transition: all 0.5s ease-in;
+}
+.logo img {
+	width: 23%;
+}
+ul {
+	list-style: none;
+}
+ul li {
+	display: inline-block;
+}
+header nav {
+	float: right;
+}
+
+header nav ul li a {
+	padding-right: 30px;
+	font-weight: bold;
+	color: white;
+	font-size: 16px;
+	transition: all 0.5s ease-in;
+	text-decoration: none;
+}
+header nav ul li a:hover {
+	color: dodgerblue;
+	text-decoration: none;
+}
+.img1{
+	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("http://www.gsfdcy.com/data/img/96/2272130-working-wallpaper.jpg");
+	background-size: cover;
+}
+.img2{
+	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("https://static.pexels.com/photos/162605/notebook-natural-laptop-macbook-162605.jpeg");
+	background-size: cover;
+}
+.img3{
+	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("https://image.freepik.com/free-photo/man-working-with-the-laptop_385-19323865.jpg");
+	background-size: cover;
+}
+.slider,.slider ul,.slider ul li {
+	height: 710px;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+.slider h2 {
+	margin-top: 270px;
+	font-weight: normal;
+	font-size: 60px;
+	letter-spacing: 0.3em;
+}
+.slider p {
+	font-size: 15px;
+}
+.slider a {
+	padding: 10px 40px;
+}
+.slider a.btn-half {
+	margin-top: 20px;
+	background-color: deepskyblue;
+	color: white;
+	text-decoration: none;
+}
+
+.slider a.btn-half:hover {
+	background-color: dodgerblue;
+	transition: 0.5s ease-in;
+	text-decoration: none;
+}
+.work {
+	position: relative;
+	padding: 100px 0px;
+	text-align: center;
+}
+.heading {
+	position: relative;
+	margin-bottom: 75px;
+}
+.heading:before {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -3%;
+	width: 6%;
+	height: 1px;
+	background-color: deepskyblue;
+	z-index: 1;
+	-webkit-transition: 0.3s ease;
+}
+.heading:after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -12%;
+	width: 24%;
+	height: 1px;
+	background-color: #e1e1e1;
+}
+.heading p {
+	color: #818181;
+	display: inline-block;
+	padding: 0 0 20px 20px;
+	line-height: 24px;
+	letter-spacing: 0.025em;
+}
+.intro-block {
+	position: relative;
+	background:#f7f7f7;
+	margin: 50px 0px 0px;
+	padding: 70px 25px 40px;
+	text-align: center;
+	margin-bottom: 90px;
+}
+.intro-block:hover, .intro-block.active {
+	background: #0AABE1;
+}
+.intro-block:hover {
+	transition: 0.6s ease;
+}
+.intro-block .intro-icon {
+	position: absolute;
+	top: -31px;
+	left: 50%;
+	margin-left: -31px;
+}
+.intro-block .fa {
+	width: 63px;
+	height: 63px;
+	font-size: 30px;
+	color: white;
+	line-height: 2;
+	background: deepskyblue;
+	border-radius: 50%;
+	box-shadow: 0 0 0 10px #CCEEF9;
+}
+.intro-block:hover .fa, .into-block.active .fa {
+	background: white;
+	color: deepskyblue;
+	box-shadow: 0 0 0 10px deepskyblue;
+}
+.intro-block h3 {
+	color: deepskyblue;
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+.into-block p {
+	color: #505050;
+}
+.intro-block:hover h3,.intro-block:hover p {
+	color: #f6f6f6;
+}
+
+.testimonials {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://petapixel.com/assets/uploads/2017/04/imac.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	color: white;
+	margin-top: -100px;
+}
+
+.testimonials .carousel-indicators {
+	bottom: -60px;
+}
+.testimonials .heading p {
+	color: white;
+}
+.carousel-inner img {
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	border: 2px solid deepskyblue;
+	padding: 5px;
+ }
+
+.testimonials .carousel-indicators li.active {
+	background-color: deepskyblue;
+
+}
+.testimonials .carousel-indicators li {
+	border-color: deepskyblue;
+}
+
+.team {
+	padding: 100px 0px;
+}
+
+.team .heading {
+	margin-bottom: 100px;
+}
+.team-man {
+	position: absolute;
+	left: 50%;
+	margin-left: -50px;
+	top: -50px;
+	overflow: hidden;
+	min-height: 100px;
+	height: 100px;
+	width: 100px;
+	min-width: 100px;
+	border: 10px solid deepskyblue;
+	border-radius: 50%;
+}
+.team-man img {
+	width: 100%;
+	height: 100%;
+	min-width: 100%;
+	min-height:100%;
+	border-radius: 50%;
+}
+.title h3 {
+	color: deepskyblue;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 70px;
+	margin-bottom: 5px;
+}
+
+.title span {
+	color: #6c6c6c;
+	font-size: 16px;
+	text-transform: capitalize;
+	letter-spacing: 0.025em;
+}
+.team-description p {
+	color: dimgrey;
+	font-size: 14px;
+	padding:25px 15px;
+	line-height: 24px;
+	text-align: center;
+	position: relative;
+}
+.team-description {
+	background-color: white;
+}
+.social {
+	text-align: center;
+	padding-bottom: 15px;
+}
+.social a {
+	margin: 0 6px;
+}
+.social i {
+	height: 40px;
+	width: 40px;
+	background:white;
+	text-align:center;
+	color: deepskyblue;
+	border-radius: 50%;
+	border:3px solid #c4e5f0;
+	padding-top: 10px;
+}
+.title {
+	text-align: center;
+	position: relative;
+}
+.team-description:hover {
+	background-color: deepskyblue;
+	color: white;
+	transition: 0.3s ease;
+}
+.team-description:hover .title h3,
+.team-description:hover .title span{
+	color: white;
+	transition: 0.4s ease;
+}
+.team-block:hover .team-description p{
+	color: #f9f9f9;
+	transition: 0.5s ease;
+}
+.team-block:hover .social i{
+	border-color: white;
+	background:deepskyblue;
+	color: white;
+	transition: 0.6s ease;
+}
+.contact {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://image.freepik.com/free-photo/man-working-with-the-laptop_385-19323865.jpg");
+	padding: 100px 0;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.contact .heading p{
+	color: white;
+}
+.contact h2 {
+	color: white;
+}
+.divider {
+	border-right: 1px solid #d9d9d9;
+}
+.contact h3 {
+	text-transform: uppercase;
+	margin-bottom: 18px;
+	color: white;
+}
+.contact h4{
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 4px;
+	letter-spacing: 0.025em;
+}
+.contact span {
+	display: block;
+	color: white;
+	font-size: 12px;
+	line-height: normal;
+	letter-spacing: 0.025em;
+}
+.contact ul li {
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+.contact ul li:last-child{
+	margin-bottom: 0;
+}
+.address ul li .fa {
+	float: left;
+	width: 25px;
+	color: deepskyblue;
+	font-size: 30px;
+	padding-top: 13px;
+}
+.address ul li .address-phone {
+	float: left;
+	width: 180px;
+	padding-left: 25px;
+}
+.form {
+	padding-left: 25px;
+}
+
+.contact .form-control, .contact textarea {
+	font-family: 'Roboto',sans-serif;
+	background-color: #fafdff;
+	border: 1px solid deepskyblue;
+	padding: 10px 12px;
+	color: #bdbdbd;
+	height: 45px;
+	font-weight: 400;
+	border-radius: 0;
+}
+.contact .form-group {
+	margin-bottom: 30px;
+}
+.contact textarea {
+	min-height: 115px;
+}
+.contact .default-btn {
+	padding: 10px;
+}
+footer {
+	background:#34495e;
+	background-size: cover;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	color: white;
+}
+.icons a {
+	margin:0 16px 20px 16px;
+	display: inline-block;
+}
+.icons .fa {
+	font-size: 30px;
+	color: deepskyblue;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background:white;
+	line-height: 2;
+	border:10px solid #b1c9d1;
+	transition: 0.3s ease;
+	text-align: center;
+}
+.icons a:hover .fa {
+	border:10px solid white;
+
+}
+.line {
+	width: 80px;
+	border-bottom: 2px solid white;
+	margin: 0 auto;
+	margin-top: 20px;
+}
